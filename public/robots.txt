@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block search engines from indexing certain pages
+Disallow: /dashboard
+Disallow: /api/
+Disallow: /auth/
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml
