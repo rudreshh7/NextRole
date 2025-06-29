@@ -20,18 +20,21 @@ If you discover a security vulnerability in TalentForge, please report it respon
 ## Security Features
 
 ### Authentication
+
 - NextAuth.js v5 with JWT strategy
 - GitHub OAuth integration
 - Secure session management
 - CSRF protection built-in
 
 ### Database Security
+
 - Prisma ORM with parameterized queries
 - SQL injection prevention
 - Database connection pooling
 - Unique constraints enforced
 
 ### HTTP Security
+
 - Security headers configured:
   - X-Frame-Options: DENY
   - X-Content-Type-Options: nosniff
@@ -40,6 +43,7 @@ If you discover a security vulnerability in TalentForge, please report it respon
 - Secure cookie settings
 
 ### Data Protection
+
 - User data encrypted in transit
 - Sensitive data not logged
 - Environment variables secured
